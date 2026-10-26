@@ -1,0 +1,22 @@
+# 构建产物
+build/
+Core/Src/build/
+cmake-build-*/
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+mx.scratch
+
+# Python 运行产物
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 数据 / 临时文件
+*.csv
+*.dat
+*.log
+~$*
